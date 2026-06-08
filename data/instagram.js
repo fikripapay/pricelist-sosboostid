@@ -94,7 +94,7 @@ window.priceData_instagram = {
         warranty: "No Garansi",
         price: "Rp 8.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -102,7 +102,7 @@ window.priceData_instagram = {
         warranty: "30 Hari ♻️",
         price: "Rp 11.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -110,7 +110,7 @@ window.priceData_instagram = {
         warranty: "No Garansi",
         price: "Rp 17.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -118,7 +118,7 @@ window.priceData_instagram = {
         warranty: "30 Hari ♻️",
         price: "Rp 22.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -126,7 +126,7 @@ window.priceData_instagram = {
         warranty: "No Garansi",
         price: "Rp 29.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -134,7 +134,7 @@ window.priceData_instagram = {
         warranty: "30 Hari ♻️",
         price: "Rp 36.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -142,7 +142,7 @@ window.priceData_instagram = {
         warranty: "No Garansi",
         price: "Rp 41.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -150,7 +150,7 @@ window.priceData_instagram = {
         warranty: "30 Hari ♻️",
         price: "Rp 49.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -158,7 +158,7 @@ window.priceData_instagram = {
         warranty: "No Garansi",
         price: "Rp 54.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
       {
         id: "38982",
@@ -166,7 +166,7 @@ window.priceData_instagram = {
         warranty: "30 Hari ♻️",
         price: "Rp 64.000",
         Keterangan: "Location: Indonesia",
-        status: "ready",
+        status: "maintenance",
       },
     ],
   },
