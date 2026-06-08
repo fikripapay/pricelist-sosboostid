@@ -3,7 +3,7 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        id: "38982",
+        id: "10170",
         qty: "100 Followers",
         warranty: "No Garansi",
         price: "Rp 2.000",
