@@ -3,7 +3,6 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        id: "10170",
         qty: "100 Followers",
         warranty: "No Garansi",
         price: "Rp 2.000",
@@ -11,7 +10,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10171",
         qty: "100 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 4.000",
@@ -19,7 +17,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10170",
         qty: "250 Followers",
         warranty: "No Garansi",
         price: "Rp 4.000",
@@ -27,7 +24,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10171",
         qty: "250 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 6.500",
@@ -35,7 +31,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10170",
         qty: "500 Followers",
         warranty: "No Garansi",
         price: "Rp 6.500",
@@ -43,7 +38,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10171",
         qty: "500 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 10.500",
@@ -51,7 +45,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10170",
         qty: "750 Followers",
         warranty: "No Garansi",
         price: "Rp 9.500",
@@ -59,7 +52,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10171",
         qty: "750 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 14.000",
@@ -67,7 +59,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10170",
         qty: "1000 Followers",
         warranty: "No Garansi",
         price: "Rp 12.000",
@@ -75,7 +66,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10171",
         qty: "1000 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 18.000",
@@ -89,7 +79,6 @@ window.priceData_instagram = {
     min: 100,
     data: [
       {
-        id: "38982",
         qty: "100 Followers",
         warranty: "No Garansi",
         price: "Rp 8.000",
@@ -97,7 +86,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "100 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 11.000",
@@ -105,7 +93,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "250 Followers",
         warranty: "No Garansi",
         price: "Rp 17.000",
@@ -113,7 +100,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "250 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 22.000",
@@ -121,7 +107,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "500 Followers",
         warranty: "No Garansi",
         price: "Rp 29.000",
@@ -129,7 +114,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "500 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 36.000",
@@ -137,7 +121,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "750 Followers",
         warranty: "No Garansi",
         price: "Rp 41.000",
@@ -145,7 +128,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "750 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 49.000",
@@ -153,7 +135,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "1000 Followers",
         warranty: "No Garansi",
         price: "Rp 54.000",
@@ -161,7 +142,6 @@ window.priceData_instagram = {
         status: "maintenance",
       },
       {
-        id: "38982",
         qty: "1000 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 64.000",
@@ -175,7 +155,6 @@ window.priceData_instagram = {
     min: 1000,
     data: [
       {
-        id: "3314",
         qty: "1000 Views",
         warranty: "No Garansi",
         price: "Rp 1.000",
@@ -183,7 +162,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "1000 Views",
         warranty: "30 Hari ♻️",
         price: "Rp 2.000",
@@ -191,7 +169,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "2500 Views",
         warranty: "No Garansi",
         price: "Rp 2.000",
@@ -199,7 +176,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "2500 Views",
         warranty: "30 Hari ♻️",
         price: "Rp 3.000",
@@ -207,7 +183,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "5000 Views",
         warranty: "No Garansi",
         price: "Rp 3.000",
@@ -215,7 +190,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "5000 Views",
         warranty: "30 Hari ♻️",
         price: "Rp 4.500",
@@ -223,7 +197,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "7500 Views",
         warranty: "No Garansi",
         price: "Rp 4.000",
@@ -231,7 +204,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "7500 Views",
         warranty: "30 Hari ♻️",
         price: "Rp 5.500",
@@ -239,7 +211,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "10000 Views",
         warranty: "No Garansi",
         price: "Rp 5.000",
@@ -247,7 +218,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "3314",
         qty: "10000 Views",
         warranty: "30 Hari ♻️",
         price: "Rp 7.000",
@@ -261,7 +231,6 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        id: "10504",
         qty: "100 Likes",
         warranty: "No Garansi",
         price: "Rp 1.000",
@@ -269,7 +238,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "100 Likes",
         warranty: "30 Hari ♻️",
         price: "Rp 2.000",
@@ -277,7 +245,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "250 Likes",
         warranty: "No Garansi",
         price: "Rp 2.000",
@@ -285,7 +252,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "250 Likes",
         warranty: "30 Hari ♻️",
         price: "Rp 3.000",
@@ -293,7 +259,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "500 Likes",
         warranty: "No Garansi",
         price: "Rp 3.000",
@@ -301,7 +266,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "500 Likes",
         warranty: "30 Hari ♻️",
         price: "Rp 4.500",
@@ -309,7 +273,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "750 Likes",
         warranty: "No Garansi",
         price: "Rp 4.000",
@@ -317,7 +280,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "750 Likes",
         warranty: "30 Hari ♻️",
         price: "Rp 5.500",
@@ -325,7 +287,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "1000 Likes",
         warranty: "No Garansi",
         price: "Rp 5.000",
@@ -333,7 +294,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "10504",
         qty: "1000 Likes",
         warranty: "30 Hari ♻️",
         price: "Rp 7.000",
@@ -347,18 +307,16 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        id: "5363",
         qty: "1 Repost",
         warranty: "No Garansi",
-        price: "Rp 199",
+        price: "Rp 99",
         Keterangan: "Location: Global 🌍",
         status: "ready",
       },
       {
-        id: "5363",
         qty: "1 Repost",
         warranty: "30 Hari ♻️",
-        price: "Rp 299",
+        price: "Rp 199",
         Keterangan: "Location: Global 🌍",
         status: "ready",
       },
@@ -369,7 +327,6 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        id: "6437",
         qty: "100 Shares",
         warranty: "No Garansi",
         price: "Rp 1.000",
@@ -377,7 +334,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "100 Shares",
         warranty: "30 Hari ♻️",
         price: "Rp 2.000",
@@ -385,7 +341,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "250 Shares",
         warranty: "No Garansi",
         price: "Rp 2.000",
@@ -393,7 +348,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "250 Shares",
         warranty: "30 Hari ♻️",
         price: "Rp 3.000",
@@ -401,7 +355,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "500 Shares",
         warranty: "No Garansi",
         price: "Rp 3.000",
@@ -409,7 +362,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "500 Shares",
         warranty: "30 Hari ♻️",
         price: "Rp 4.500",
@@ -417,7 +369,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "750 Shares",
         warranty: "No Garansi",
         price: "Rp 4.000",
@@ -425,7 +376,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "750 Shares",
         warranty: "30 Hari ♻️",
         price: "Rp 5.500",
@@ -433,7 +383,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "1000 Shares",
         warranty: "No Garansi",
         price: "Rp 5.000",
@@ -441,7 +390,6 @@ window.priceData_instagram = {
         status: "ready",
       },
       {
-        id: "6437",
         qty: "1000 Shares",
         warranty: "30 Hari ♻️",
         price: "Rp 7.000",
@@ -455,18 +403,16 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        id: "2074",
         qty: "1 Saves",
         warranty: "No Garansi",
-        price: "Rp 199",
+        price: "Rp 99",
         Keterangan: "Location: Global 🌍",
         status: "ready",
       },
       {
-        id: "2074",
         qty: "1 Saves",
         warranty: "30 Hari ♻️",
-        price: "Rp 299",
+        price: "Rp 199",
         Keterangan: "Location: Global 🌍",
         status: "ready",
       },

@@ -3,7 +3,6 @@ window.priceData_facebook = {
     min: 100,
     data: [
       {
-        id: "3824",
         qty: "100 Followers",
         warranty: "No Garansi",
         price: "Rp 2.000",
@@ -11,7 +10,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "100 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 3.500",
@@ -19,7 +17,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "250 Followers",
         warranty: "No Garansi",
         price: "Rp 3.500",
@@ -27,7 +24,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "250 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 6.000",
@@ -35,7 +31,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "500 Followers",
         warranty: "No Garansi",
         price: "Rp 6.000",
@@ -43,7 +38,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "500 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 9.000",
@@ -51,7 +45,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "750 Followers",
         warranty: "No Garansi",
         price: "Rp 8.500",
@@ -59,7 +52,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "750 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 12.000",
@@ -67,7 +59,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "1000 Followers",
         warranty: "No Garansi",
         price: "Rp 11.000",
@@ -75,7 +66,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3824",
         qty: "1000 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 15.000",
@@ -89,7 +79,6 @@ window.priceData_facebook = {
     min: 10,
     data: [
       {
-        id: "3379",
         qty: "100 Members",
         warranty: "No Garansi",
         price: "Rp 2.000",
@@ -97,7 +86,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "100 Members",
         warranty: "30 Hari ♻️",
         price: "Rp 4.000",
@@ -105,7 +93,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "250 Members",
         warranty: "No Garansi",
         price: "Rp 4.000",
@@ -113,7 +100,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "250 Members",
         warranty: "30 Hari ♻️",
         price: "Rp 6.500",
@@ -121,7 +107,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "500 Members",
         warranty: "No Garansi",
         price: "Rp 6.500",
@@ -129,7 +114,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "500 Members",
         warranty: "30 Hari ♻️",
         price: "Rp 9.500",
@@ -137,7 +121,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "750 Members",
         warranty: "No Garansi",
         price: "Rp 9.000",
@@ -145,7 +128,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "750 Members",
         warranty: "30 Hari ♻️",
         price: "Rp 12.500",
@@ -153,7 +135,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "1000 Members",
         warranty: "No Garansi",
         price: "Rp 12.000",
@@ -161,7 +142,6 @@ window.priceData_facebook = {
         status: "ready",
       },
       {
-        id: "3379",
         qty: "1000 Members",
         warranty: "30 Hari ♻️",
         price: "Rp 16.000",

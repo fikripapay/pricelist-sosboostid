@@ -3,7 +3,6 @@ window.priceData_whatsapp = {
     min: 10,
     data: [
       {
-        id: "2822",
         qty: "100 Followers",
         warranty: "No Garansi",
         price: "Rp 7.500",
@@ -11,7 +10,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "100 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 12.000",
@@ -19,7 +17,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "250 Followers",
         warranty: "No Garansi",
         price: "Rp 16.500",
@@ -27,7 +24,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "250 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 21.000",
@@ -35,7 +31,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "500 Followers",
         warranty: "No Garansi",
         price: "Rp 29.900",
@@ -43,7 +38,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "500 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 34.500",
@@ -51,7 +45,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "750 Followers",
         warranty: "No Garansi",
         price: "Rp 43.500",
@@ -59,7 +52,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "750 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 48.000",
@@ -67,7 +59,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "1000 Followers",
         warranty: "No Garansi",
         price: "Rp 57.000",
@@ -75,7 +66,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "2822",
         qty: "1000 Followers",
         warranty: "30 Hari ♻️",
         price: "Rp 61.000",
@@ -89,7 +79,6 @@ window.priceData_whatsapp = {
     min: 10,
     data: [
       {
-        id: "9648 - 9670",
         qty: "1 Reactions",
         warranty: "No Garansi",
         price: "Rp 199",
@@ -104,7 +93,6 @@ window.priceData_whatsapp = {
     min: 10,
     data: [
       {
-        id: "4460",
         qty: "Pilihan ke-1",
         warranty: "No Garansi",
         price: "Rp 199",
@@ -112,7 +100,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "4461",
         qty: "Pilihan ke-2",
         warranty: "No Garansi",
         price: "Rp 199",
@@ -120,7 +107,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "4462",
         qty: "Pilihan ke-3",
         warranty: "No Garansi",
         price: "Rp 199",
@@ -128,7 +114,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "4463",
         qty: "Pilihan ke-4",
         warranty: "No Garansi",
         price: "Rp 199",
@@ -136,7 +121,6 @@ window.priceData_whatsapp = {
         status: "ready",
       },
       {
-        id: "4464",
         qty: "Pilihan ke-5",
         warranty: "No Garansi",
         price: "Rp 199",
