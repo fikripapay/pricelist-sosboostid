@@ -483,12 +483,11 @@
           <table>
             <thead>
               <tr>
+                <th>Status</th>
                 <th>Jumlah</th>
                 <th>Garansi</th>
                 <th>Harga</th>
                 <th>Keterangan</th>
-                <th>Status</th>
-                <!-- <th>Aksi</th> -->
               </tr>
             </thead>
             <tbody id="price-table-body">
@@ -651,11 +650,11 @@
           const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
 
           tr.innerHTML = `
+            <td><span class="badge status-${item.status}">${statusLabel}</span></td>
             <td style="font-weight: 600;">${item.qty}</td>
             <td>${item.warranty}</td>
             <td style="color: var(--accent-primary); font-weight: 700;">${item.price}</td>
             <td>${item.Keterangan || "-"}</td>
-            <td><span class="badge status-${item.status}">${statusLabel}</span></td>
           `;
           tableBody.appendChild(tr);
         });
