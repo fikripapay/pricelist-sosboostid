@@ -395,6 +395,27 @@
           height: 50px;
         }
       }
+
+      .swipe-note {
+        display: block;
+        margin-bottom: 12px;
+        padding: 10px 14px;
+        font-size: 0.85rem;
+        text-align: center;
+        color: #facc15;
+        background: rgba(250, 204, 21, 0.08);
+        border: 1px solid rgba(250, 204, 21, 0.2);
+        border-radius: 12px;
+      }
+
+      @keyframes swipeHint {
+        0%, 100% { transform: translateX(0); }
+        50% { transform: translateX(6px); }
+      }
+
+      .swipe-note {
+        animation: swipeHint 1.2s infinite;
+      }
     </style>
   </head>
   <body>
@@ -479,14 +500,17 @@
           </p>
         </div>
 
+        <div class="swipe-note">
+          ← Geser tabel ke samping untuk melihat semua data →
+        </div>
         <div class="table-container">
           <table>
             <thead>
               <tr>
-                <th>Status</th>
                 <th>Jumlah</th>
                 <th>Garansi</th>
                 <th>Harga</th>
+                <th>Status</th>
               </tr>
             </thead>
             <tbody id="price-table-body">
@@ -649,10 +673,10 @@
           const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
 
           tr.innerHTML = `
-            <td><span class="badge status-${item.status}">${statusLabel}</span></td>
             <td style="font-weight: 600;">${item.qty}</td>
             <td>${item.warranty}</td>
             <td style="color: var(--accent-primary); font-weight: 700;">${item.price}</td>
+            <td><span class="badge status-${item.status}">${statusLabel}</span></td>
           `;
           tableBody.appendChild(tr);
         });
