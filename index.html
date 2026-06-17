@@ -367,6 +367,7 @@
         color: var(--text-muted);
         font-size: 0.85rem;
         line-height: 1.5;
+        display: none;
       }
 
       /* Footer */
@@ -455,10 +456,10 @@
             <div class="card-name">Facebook</div>
           </div>
           <!-- Shopee -->
-          <!-- <div class="card" onclick="navigateToCategory('Shopee', 'shopee')">
+          <div class="card" onclick="navigateToCategory('Shopee', 'shopee')">
             <div class="card-icon"><i class="fa-solid fa-s"></i></div>
             <div class="card-name">Shopee</div>
-          </div> -->
+          </div>
           <!-- WhatsApp -->
           <div
             class="card"
@@ -554,15 +555,6 @@
             icon: "users",
           },
           { id: "fb-group", name: "Group Members", icon: "users" },
-          // { id: "fb-views", name: "Reels Views", icon: "eye" },
-          // { id: "fb-likes", name: "Post Likes", icon: "thumbs-up" },
-          // { id: "fb-shares", name: "Post Shares", icon: "forward" },
-          // { id: "fb-reactions", name: "Post Reactions", icon: "smile-plus" },
-          // {
-          //   id: "fb-comments",
-          //   name: "Post Comments",
-          //   icon: "message-square-more",
-          // },
         ],
         whatsapp: [
           { id: "wa-channels", name: "Channel Followers", icon: "rss" },
@@ -574,13 +566,13 @@
           { id: "channel-polling", name: "Channel Polling", icon: "vote" },
         ],
         shopee: [
+          { id: "shopee-followers", name: "Followers", icon: "users" },
           { id: "shopee-video", name: "Video Likes", icon: "play" },
           {
             id: "shopee-product",
             name: "Product Likes",
             icon: "shopping-basket",
           },
-          { id: "shopee-followers", name: "Followers", icon: "users" },
         ],
       };
 
