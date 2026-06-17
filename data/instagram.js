@@ -65,71 +65,71 @@ window.priceData_instagram = {
     ],
   },
 
-  "ig-followersid": {
-    min: 100,
-    data: [
-      {
-        qty: "100 Followers",
-        warranty: "No Garansi",
-        price: "Rp 4.000",
-        status: "ready",
-      },
-      {
-        qty: "100 Followers",
-        warranty: "7 Hari ♻️",
-        price: "Rp 5.000",
-        status: "ready",
-      },
-      {
-        qty: "250 Followers",
-        warranty: "No Garansi",
-        price: "Rp 9.000",
-        status: "ready",
-      },
-      {
-        qty: "250 Followers",
-        warranty: "7 Hari ♻️",
-        price: "Rp 11.000",
-        status: "ready",
-      },
-      {
-        qty: "500 Followers",
-        warranty: "No Garansi",
-        price: "Rp 17.000",
-        status: "ready",
-      },
-      {
-        qty: "500 Followers",
-        warranty: "7 Hari ♻️",
-        price: "Rp 20.000",
-        status: "ready",
-      },
-      {
-        qty: "750 Followers",
-        warranty: "No Garansi",
-        price: "Rp 24.000",
-        status: "ready",
-      },
-      {
-        qty: "750 Followers",
-        warranty: "7 Hari ♻️",
-        price: "Rp 28.000",
-        status: "ready",
-      },
-      {
-        qty: "1000 Followers",
-        warranty: "No Garansi",
-        price: "Rp 31.000",
-        status: "ready",
-      },
-      {
-        qty: "1000 Followers",
-        warranty: "7 Hari ♻️",
-        price: "Rp 36.000",
-        status: "ready",
-      },
-    ],
-  },
+  // "ig-followersid": {
+  //   min: 100,
+  //   data: [
+  //     {
+  //       qty: "100 Followers",
+  //       warranty: "No Garansi",
+  //       price: "Rp 4.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "100 Followers",
+  //       warranty: "7 Hari ♻️",
+  //       price: "Rp 5.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "250 Followers",
+  //       warranty: "No Garansi",
+  //       price: "Rp 9.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "250 Followers",
+  //       warranty: "7 Hari ♻️",
+  //       price: "Rp 11.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "500 Followers",
+  //       warranty: "No Garansi",
+  //       price: "Rp 17.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "500 Followers",
+  //       warranty: "7 Hari ♻️",
+  //       price: "Rp 20.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "750 Followers",
+  //       warranty: "No Garansi",
+  //       price: "Rp 24.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "750 Followers",
+  //       warranty: "7 Hari ♻️",
+  //       price: "Rp 28.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "1000 Followers",
+  //       warranty: "No Garansi",
+  //       price: "Rp 31.000",
+  //       status: "ready",
+  //     },
+  //     {
+  //       qty: "1000 Followers",
+  //       warranty: "7 Hari ♻️",
+  //       price: "Rp 36.000",
+  //       status: "ready",
+  //     },
+  //   ],
+  // },
 
   "ig-views": {
     min: 1000,
