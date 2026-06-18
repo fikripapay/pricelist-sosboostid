@@ -67,6 +67,13 @@
           );
       }
 
+      .disabled-card {
+        opacity: 0.5;
+        cursor: not-allowed;
+        pointer-events: none;
+        position: relative;
+      }
+
       .btn-order.disabled {
         background: rgba(255, 255, 255, 0.08);
         color: #777;
@@ -78,6 +85,21 @@
 
       .btn-order.disabled:hover {
         transform: none;
+      }
+
+      .service-badge {
+        margin-top: 12px;
+        display: inline-block;
+
+        padding: 6px 12px;
+        border-radius: 999px;
+
+        background: rgba(239,68,68,.15);
+        border: 1px solid rgba(239,68,68,.3);
+
+        color: #ff6b6b;
+        font-size: 12px;
+        font-weight: 600;
       }
 
       /* Layout Utilities */
@@ -529,11 +551,11 @@
           // { id: "tt-shares", name: "shares", icon: "forward" },
           // { id: "tt-saves", name: "saves", icon: "bookmark" },
           // { id: "tt-comments", name: "Comments", icon: "message-square-more" },
-          // { id: "tt-commentLikes", name: "Comment Likes", icon: "thumbs-up" },
+          // { id: "tt-commentLikes", name: "Comment Likes", icon: "thumbs-up", enabled: false },
         ],
         instagram: [
           { id: "ig-followers", name: "Followers Global", icon: "users" },
-          { id: "ig-followersid", name: "Followers Indonesia", icon: "users" },
+          { id: "ig-followersid", name: "Followers Indonesia", icon: "users", enabled: false},
           { id: "ig-views", name: "Views", icon: "eye" },
           { id: "ig-likes", name: "Likes Global", icon: "thumbs-up" },
           { id: "ig-likesid", name: "Likes Indonesia", icon: "thumbs-up" },
@@ -604,12 +626,27 @@
         const services = serviceData[platformId] || [];
         services.forEach((service) => {
           const card = document.createElement("div");
-          card.className = "card";
-          card.onclick = () => navigateToPricelist(service.name, service.id);
+
+          card.className = `card ${service.enabled === false ? "disabled-card" : ""}`;
+
+          if (service.enabled !== false) {
+            card.onclick = () => navigateToPricelist(service.name, service.id);
+          }
+
           card.innerHTML = `
-                    <div class="card-icon"><i data-lucide="${service.icon}"></i></div>
-                    <div class="card-name">${service.name}</div>
-                `;
+            <div class="card-icon">
+              <i data-lucide="${service.icon}"></i>
+            </div>
+
+            <div class="card-name">${service.name}</div>
+
+            ${
+              service.enabled === false
+                ? '<div class="service-badge">Maintenance</div>'
+                : ''
+            }
+          `;
+
           gridEl.appendChild(card);
         });
 
