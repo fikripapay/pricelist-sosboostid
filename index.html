@@ -525,7 +525,6 @@
                 <th>Jumlah</th>
                 <th>Garansi</th>
                 <th>Harga</th>
-                <th>Status</th>
               </tr>
             </thead>
             <tbody id="price-table-body">
@@ -545,22 +544,22 @@
       // DATA STRUCTURE
       const serviceData = {
         tiktok: [
-          { id: "tt-followers", name: "Followers", icon: "users", enabled: false},
-          { id: "tt-views", name: "Views", icon: "eye", enabled: false},
-          { id: "tt-likes", name: "Likes", icon: "heart", enabled: false},
+          { id: "tt-followersid", name: "Followers Indonesia", icon: "users"},
+          { id: "tt-likes", name: "Likes Indonesia", icon: "heart"},
+          { id: "tt-views", name: "Views", icon: "eye"},
           // { id: "tt-shares", name: "shares", icon: "forward" },
           // { id: "tt-saves", name: "saves", icon: "bookmark" },
           // { id: "tt-comments", name: "Comments", icon: "message-square-more" },
           // { id: "tt-commentLikes", name: "Comment Likes", icon: "thumbs-up", enabled: false },
         ],
         instagram: [
-          { id: "ig-followers", name: "Followers Global", icon: "users"},
+          { id: "ig-followers", name: "Followers Global (Murah)", icon: "users"},
           { id: "ig-followersid", name: "Followers Indonesia", icon: "users"},
-          { id: "ig-views", name: "Views", icon: "eye" },
-          { id: "ig-likes", name: "Likes Global", icon: "thumbs-up" },
+          { id: "ig-likes", name: "Likes Global (Murah)", icon: "thumbs-up" },
           { id: "ig-likesid", name: "Likes Indonesia", icon: "thumbs-up" },
-          { id: "ig-repost", name: "Repost", icon: "repeat-2" },
+          { id: "ig-views", name: "Views", icon: "eye" },
           { id: "ig-shares", name: "Shares", icon: "forward" },
+          { id: "ig-repost", name: "Repost", icon: "repeat-2" },
           { id: "ig-saves", name: "Saves", icon: "bookmark" },
         ],
         whatsapp: [
@@ -690,7 +689,6 @@
             <td style="font-weight: 600;">${item.qty}</td>
             <td>${item.warranty}</td>
             <td style="color: var(--accent-primary); font-weight: 700;">${item.price}</td>
-            <td><span class="badge status-${item.status}">${statusLabel}</span></td>
           `;
           tableBody.appendChild(tr);
         });
