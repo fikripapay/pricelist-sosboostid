@@ -303,6 +303,19 @@
         background: rgba(255, 255, 255, 0.02);
       }
 
+      tbody tr{
+    cursor:pointer;
+    transition:0.2s;
+}
+
+tbody tr:hover td{
+    background:rgba(99,102,241,.08);
+}
+
+tbody tr:active td{
+    background:rgba(99,102,241,.15);
+}
+
       /* Badge & Status */
       .badge {
         display: inline-block;
@@ -658,39 +671,55 @@
         subtitleEl.innerText = `Daftar harga terbaik untuk ${currentPlatformName} ${serviceName}`;
         tableBody.innerHTML = "";
 
-        // Update back button to return to specific platform categories
         backBtn.onclick = () =>
-          navigateToCategory(currentPlatformName, currentPlatform);
+            navigateToCategory(currentPlatformName, currentPlatform);
 
         const data = await loadPriceData(currentPlatform);
         const service = data[serviceId] || { data: [] };
         const items = service.data;
-        const minOrder = service.min || "-";
 
         noteEl.innerText = `Note: Bisa order lebih dari 1000.`;
 
-        items.forEach((item, index) => {
-          const tr = document.createElement("tr");
+        items.forEach((item) => {
 
-          const statusLabel =
-            item.status.charAt(0).toUpperCase() + item.status.slice(1);
-          const waMessage = encodeURIComponent(
-            `Halo SosBoost ID, saya mau order ${currentPlatformName} ${serviceName}\nJumlah: ${item.qty}\nHarga: ${item.price}. #${item.id}`,
-          );
-          const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
+            const tr = document.createElement("tr");
 
-          tr.innerHTML = `
-            <td>
-    <strong>${item.qty}</strong><br>
-    <span>${item.warranty}</span>
-</td>
-            <td style="color: var(--accent-primary); font-weight: 700;">${item.price}</td>
-          `;
-          tableBody.appendChild(tr);
+            const waMessage = encodeURIComponent(
+    `
+    Saya ingin order:
+
+    Platform : ${currentPlatformName}
+    Layanan  : ${serviceName}
+    Jumlah   : ${item.qty}
+    Garansi  : ${item.warranty}
+    Harga    : ${item.price}`
+            );
+
+            const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
+
+            tr.innerHTML = `
+                <td>
+                    <strong>${item.qty}</strong><br>
+                    <span>${item.warranty}</span>
+                </td>
+
+                <td style="color: var(--accent-primary); font-weight:700;">
+                    ${item.price}
+                </td>
+            `;
+
+            // Klik satu baris untuk order
+            tr.style.cursor = "pointer";
+
+            tr.addEventListener("click", () => {
+                window.open(waLink, "_blank");
+            });
+
+            tableBody.appendChild(tr);
         });
 
-        showPage("pricelist-page");
-      }
+    showPage("pricelist-page");
+}
 
       // Initialize Icons
       document.addEventListener("DOMContentLoaded", () => {
