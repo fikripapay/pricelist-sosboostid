@@ -542,10 +542,6 @@
           { id: "tt-followersid", name: "Followers Indonesia", icon: "users"},
           { id: "tt-likes", name: "Likes Indonesia", icon: "heart"},
           { id: "tt-views", name: "Views", icon: "eye"},
-          // { id: "tt-shares", name: "shares", icon: "forward" },
-          // { id: "tt-saves", name: "saves", icon: "bookmark" },
-          // { id: "tt-comments", name: "Comments", icon: "message-square-more" },
-          // { id: "tt-commentLikes", name: "Comment Likes", icon: "thumbs-up", enabled: false },
         ],
         instagram: [
           { id: "ig-followers", name: "Followers Luar (Lebih Murah)", icon: "users"},
@@ -690,6 +686,13 @@
         });
 
         showPage("pricelist-page");
+
+        // Default posisi scroll sedikit ke tengah
+const container = document.querySelector(".table-container");
+
+setTimeout(() => {
+    container.scrollLeft = 115; // sesuaikan 50-100
+}, 100);
       }
 
       // Initialize Icons
