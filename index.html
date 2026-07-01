@@ -276,7 +276,8 @@
         width: 100%;
         border-collapse: collapse;
         text-align: left;
-        min-width: 600px;
+        table-layout:fixed;
+        min-width: 450px;
       }
 
       th {
@@ -389,7 +390,6 @@
         color: var(--text-muted);
         font-size: 0.85rem;
         line-height: 1.5;
-        display: none;
       }
 
       /* Footer */
@@ -517,8 +517,8 @@
           <table>
             <thead>
               <tr>
-                <th>Jumlah</th>
-                <th>Garansi</th>
+                <th>Jumlah + Garansi</th>
+                <!-- <th>Garansi</th> -->
                 <th>Harga</th>
               </tr>
             </thead>
@@ -665,7 +665,7 @@
         const items = service.data;
         const minOrder = service.min || "-";
 
-        noteEl.innerText = `Note: Tersedia jumlah lain untuk ${currentPlatformName} ${serviceName}. Minimal order: ${minOrder}.`;
+        noteEl.innerText = `Note: Bisa order lebih dari 1000.`;
 
         items.forEach((item, index) => {
           const tr = document.createElement("tr");
@@ -678,21 +678,16 @@
           const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
 
           tr.innerHTML = `
-            <td style="font-weight: 600;">${item.qty}</td>
-            <td>${item.warranty}</td>
+            <td>
+    <strong>${item.qty}</strong><br>
+    <span>${item.warranty}</span>
+</td>
             <td style="color: var(--accent-primary); font-weight: 700;">${item.price}</td>
           `;
           tableBody.appendChild(tr);
         });
 
         showPage("pricelist-page");
-
-        // Default posisi scroll sedikit ke tengah
-const container = document.querySelector(".table-container");
-
-setTimeout(() => {
-    container.scrollLeft = 115; // sesuaikan 50-100
-}, 100);
       }
 
       // Initialize Icons
