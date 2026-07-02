@@ -191,6 +191,72 @@ window.priceData_instagram = {
     ],
   },
 
+  "ig-followersidp": {
+    min: 100,
+    data: [
+      {
+        qty: "100 Followers",
+        warranty: "No Garansi",
+        price: "Rp 22.000",
+        status: "ready",
+      },
+      {
+        qty: "100 Followers",
+        warranty: "30 Hari ♻️",
+        price: "Rp 28.000",
+        status: "ready",
+      },
+      {
+        qty: "250 Followers",
+        warranty: "No Garansi",
+        price: "Rp 48.000",
+        status: "ready",
+      },
+      {
+        qty: "250 Followers",
+        warranty: "30 Hari ♻️",
+        price: "Rp 58.000",
+        status: "ready",
+      },
+      {
+        qty: "500 Followers",
+        warranty: "No Garansi",
+        price: "Rp 86.000",
+        status: "ready",
+      },
+      {
+        qty: "500 Followers",
+        warranty: "30 Hari ♻️",
+        price: "Rp 102.000",
+        status: "ready",
+      },
+      {
+        qty: "750 Followers",
+        warranty: "No Garansi",
+        price: "Rp 122.000",
+        status: "ready",
+      },
+      {
+        qty: "750 Followers",
+        warranty: "30 Hari ♻️",
+        price: "Rp 145.000",
+        status: "ready",
+      },
+      {
+        qty: "1000 Followers",
+        warranty: "No Garansi",
+        price: "Rp 155.000",
+        status: "ready",
+      },
+      {
+        qty: "1000 Followers",
+        warranty: "30 Hari ♻️",
+        price: "Rp 185.000",
+        status: "ready",
+      },
+    ],
+  },
+
   "ig-views": {
     min: 1000,
     data: [
@@ -329,63 +395,63 @@ window.priceData_instagram = {
       {
         qty: "100 Likes",
         warranty: "No Garansi",
-        price: "Rp 4.500",
+        price: "Rp 5.500",
         status: "ready",
       },
       {
         qty: "100 Likes",
         warranty: "30 Hari ♻️",
-        price: "Rp 6.000",
+        price: "Rp 7.500",
         status: "ready",
       },
       {
         qty: "250 Likes",
         warranty: "No Garansi",
-        price: "Rp 10.000",
+        price: "Rp 11.000",
         status: "ready",
       },
       {
         qty: "250 Likes",
         warranty: "30 Hari ♻️",
-        price: "Rp 13.000",
+        price: "Rp 14.000",
         status: "ready",
       },
-      // {
-      //   qty: "500 Likes",
-      //   warranty: "No Garansi",
-      //   price: "Rp 18.000",
-      //   status: "ready",
-      // },
-      // {
-      //   qty: "500 Likes",
-      //   warranty: "30 Hari ♻️",
-      //   price: "Rp 23.000",
-      //   status: "ready",
-      // },
-      // {
-      //   qty: "750 Likes",
-      //   warranty: "No Garansi",
-      //   price: "Rp 26.000",
-      //   status: "ready",
-      // },
-      // {
-      //   qty: "750 Likes",
-      //   warranty: "30 Hari ♻️",
-      //   price: "Rp 32.000",
-      //   status: "ready",
-      // },
-      // {
-      //   qty: "1000 Likes",
-      //   warranty: "No Garansi",
-      //   price: "Rp 34.000",
-      //   status: "ready",
-      // },
-      // {
-      //   qty: "1000 Likes",
-      //   warranty: "30 Hari ♻️",
-      //   price: "Rp 42.000",
-      //   status: "ready",
-      // },
+      {
+        qty: "500 Likes",
+        warranty: "No Garansi",
+        price: "Rp 19.000",
+        status: "ready",
+      },
+      {
+        qty: "500 Likes",
+        warranty: "30 Hari ♻️",
+        price: "Rp 23.000",
+        status: "ready",
+      },
+      {
+        qty: "750 Likes",
+        warranty: "No Garansi",
+        price: "Rp 27.000",
+        status: "ready",
+      },
+      {
+        qty: "750 Likes",
+        warranty: "30 Hari ♻️",
+        price: "Rp 32.000",
+        status: "ready",
+      },
+      {
+        qty: "1000 Likes",
+        warranty: "No Garansi",
+        price: "Rp 35.000",
+        status: "ready",
+      },
+      {
+        qty: "1000 Likes",
+        warranty: "30 Hari ♻️",
+        price: "Rp 41.000",
+        status: "ready",
+      },
     ],
   },
 
