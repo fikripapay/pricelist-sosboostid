@@ -4,62 +4,32 @@ window.priceData_whatsapp = {
     data: [
       {
         qty: "100 Followers",
-        warranty: "No Garansi",
-        price: "Rp 7.500",
-        status: "ready",
-      },
-      {
-        qty: "100 Followers",
-        warranty: "30 Hari ♻️",
-        price: "Rp 12.000",
+        warranty: "Permanen",
+        price: "Rp 13.900",
         status: "ready",
       },
       {
         qty: "250 Followers",
-        warranty: "No Garansi",
-        price: "Rp 16.500",
-        status: "ready",
-      },
-      {
-        qty: "250 Followers",
-        warranty: "30 Hari ♻️",
-        price: "Rp 21.000",
+        warranty: "Permanen",
+        price: "Rp 26.900",
         status: "ready",
       },
       {
         qty: "500 Followers",
-        warranty: "No Garansi",
-        price: "Rp 29.900",
-        status: "ready",
-      },
-      {
-        qty: "500 Followers",
-        warranty: "30 Hari ♻️",
-        price: "Rp 34.500",
+        warranty: "Permanen",
+        price: "Rp 43.900",
         status: "ready",
       },
       {
         qty: "750 Followers",
-        warranty: "No Garansi",
-        price: "Rp 43.500",
-        status: "ready",
-      },
-      {
-        qty: "750 Followers",
-        warranty: "30 Hari ♻️",
-        price: "Rp 48.000",
+        warranty: "Permanen",
+        price: "Rp 59.900",
         status: "ready",
       },
       {
         qty: "1000 Followers",
-        warranty: "No Garansi",
-        price: "Rp 57.000",
-        status: "ready",
-      },
-      {
-        qty: "1000 Followers",
-        warranty: "30 Hari ♻️",
-        price: "Rp 61.000",
+        warranty: "Permanen",
+        price: "Rp 76.900",
         status: "ready",
       },
     ],
@@ -70,7 +40,7 @@ window.priceData_whatsapp = {
     data: [
       {
         qty: "1 Reactions",
-        warranty: "-",
+        warranty: "Permanen",
         price: "Rp 199",
         Keterangan:
           "Pilih salah satu / mix: 👍❤️😂😲😥🙏🔥🏆🎉👏😎😡😮🖕💩👎💪💔🤮💸💀💵",
@@ -84,31 +54,31 @@ window.priceData_whatsapp = {
     data: [
       {
         qty: "Pilihan ke-1",
-        warranty: "-",
+        warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
       },
       {
         qty: "Pilihan ke-2",
-        warranty: "-",
+        warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
       },
       {
         qty: "Pilihan ke-3",
-        warranty: "-",
+        warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
       },
       {
         qty: "Pilihan ke-4",
-        warranty: "-",
+        warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
       },
       {
         qty: "Pilihan ke-5",
-        warranty: "-",
+        warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
       },

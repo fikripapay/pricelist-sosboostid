@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SosBoost ID</title>
     <link rel="icon" type="image/png" href="pavicon.png" />
-    <!-- Google Fonts: Inter -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -17,7 +16,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Lucide Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -90,13 +88,10 @@
       .service-badge {
         margin-top: 12px;
         display: inline-block;
-
         padding: 6px 12px;
         border-radius: 999px;
-
-        background: rgba(239,68,68,.15);
-        border: 1px solid rgba(239,68,68,.3);
-
+        background: rgba(239, 68, 68, 0.15);
+        border: 1px solid rgba(239, 68, 68, 0.3);
         color: #ff6b6b;
         font-size: 12px;
         font-weight: 600;
@@ -276,7 +271,7 @@
         width: 100%;
         border-collapse: collapse;
         text-align: left;
-        table-layout:fixed;
+        table-layout: fixed;
         min-width: 450px;
       }
 
@@ -303,18 +298,18 @@
         background: rgba(255, 255, 255, 0.02);
       }
 
-      tbody tr{
-    cursor:pointer;
-    transition:0.2s;
-}
+      tbody tr {
+        cursor: pointer;
+        transition: 0.2s;
+      }
 
-tbody tr:hover td{
-    background:rgba(99,102,241,.08);
-}
+      tbody tr:hover td {
+        background: rgba(99, 102, 241, 0.08);
+      }
 
-tbody tr:active td{
-    background:rgba(99,102,241,.15);
-}
+      tbody tr:active td {
+        background: rgba(99, 102, 241, 0.15);
+      }
 
       /* Badge & Status */
       .badge {
@@ -403,8 +398,8 @@ tbody tr:active td{
         color: var(--text-muted);
         font-size: 0.85rem;
         line-height: 1.5;
-         display:inline-block;
-    min-width:100%;
+        display: inline-block;
+        min-width: 100%;
       }
 
       /* Footer */
@@ -462,7 +457,6 @@ tbody tr:active td{
         <div class="brand-logo">SosBoost ID</div>
       </header>
 
-      <!-- HOMEPAGE SECTION -->
       <section id="homepage">
         <div class="page-header">
           <h1 class="page-title">Pilih Platform</h1>
@@ -471,12 +465,10 @@ tbody tr:active td{
           </p>
         </div>
         <div class="grid grid-home" id="platform-grid">
-          <!-- TikTok -->
           <div class="card" onclick="navigateToCategory('TikTok', 'tiktok')">
             <div class="card-icon"><i class="fa-brands fa-tiktok"></i></div>
             <div class="card-name">TikTok</div>
           </div>
-          <!-- Instagram -->
           <div
             class="card"
             onclick="navigateToCategory('Instagram', 'instagram')"
@@ -484,7 +476,10 @@ tbody tr:active td{
             <div class="card-icon"><i class="fa-brands fa-instagram"></i></div>
             <div class="card-name">Instagram</div>
           </div>
-          <!-- WhatsApp -->
+          <div class="card" onclick="navigateToCategory('Shopee', 'shopee')">
+            <div class="card-icon"><i class="fa-solid fa-s"></i></div>
+            <div class="card-name">Shopee</div>
+          </div>
           <div
             class="card"
             onclick="navigateToCategory('WhatsApp', 'whatsapp')"
@@ -495,7 +490,6 @@ tbody tr:active td{
         </div>
       </section>
 
-      <!-- CATEGORY PAGE SECTION -->
       <section id="category-page" class="hidden">
         <div class="nav-actions">
           <button class="btn-back" onclick="showPage('homepage')">
@@ -507,11 +501,9 @@ tbody tr:active td{
           <p class="subtitle">Pilih kategori layanan yang diinginkan</p>
         </div>
         <div class="grid grid-category" id="category-grid">
-          <!-- Categories will be injected here -->
-        </div>
+          </div>
       </section>
 
-      <!-- PRICELIST PAGE SECTION -->
       <section id="pricelist-page" class="hidden">
         <div class="nav-actions">
           <button class="btn-back" id="back-to-category">
@@ -533,13 +525,11 @@ tbody tr:active td{
             <thead>
               <tr>
                 <th>Jumlah + Garansi</th>
-                <!-- <th>Garansi</th> -->
                 <th>Harga</th>
               </tr>
             </thead>
             <tbody id="price-table-body">
-              <!-- Data will be injected here -->
-            </tbody>
+              </tbody>
           </table>
           <div id="price-note" class="price-note"></div>
         </div>
@@ -554,16 +544,16 @@ tbody tr:active td{
       // DATA STRUCTURE
       const serviceData = {
         tiktok: [
-          { id: "tt-followersid", name: "Followers Indonesia 🇮🇩", icon: "users"},
-          { id: "tt-likes", name: "Likes Indonesia 🇮🇩", icon: "heart"},
-          { id: "tt-views", name: "Views", icon: "eye"},
+          { id: "tt-followersid", name: "Followers Indonesia 🇮🇩", icon: "users" },
+          { id: "tt-likes", name: "Likes Indonesia 🇮🇩", icon: "heart" },
+          { id: "tt-views", name: "Views", icon: "eye" },
         ],
         instagram: [
-          { id: "ig-followers", name: "Followers Global 🌍", icon: "users"},
-          { id: "ig-followersid", name: "Followers Indonesia Full Cewek 🇮🇩", icon: "users"},
-          { id: "ig-followersidp", name: "Followers Indonesia Premium ⭐", icon: "users"},
+          { id: "ig-followers", name: "Followers Global 🌍", icon: "users" },
+          { id: "ig-followersid", name: "Followers Indonesia Full Cewek 🇮🇩", icon: "users" },
+          { id: "ig-followersidp", name: "Followers Indonesia Premium ⭐", icon: "users" },
           { id: "ig-likes", name: "Likes Global 🌍", icon: "thumbs-up" },
-          { id: "ig-likesid", name: "Likes Indonesia 🇮🇩", icon: "thumbs-up"},
+          { id: "ig-likesid", name: "Likes Indonesia 🇮🇩", icon: "thumbs-up" },
           { id: "ig-views", name: "Views", icon: "eye" },
           { id: "ig-shares", name: "Shares", icon: "forward" },
           { id: "ig-repost", name: "Repost", icon: "repeat-2" },
@@ -672,7 +662,7 @@ tbody tr:active td{
         tableBody.innerHTML = "";
 
         backBtn.onclick = () =>
-            navigateToCategory(currentPlatformName, currentPlatform);
+          navigateToCategory(currentPlatformName, currentPlatform);
 
         const data = await loadPriceData(currentPlatform);
         const service = data[serviceId] || { data: [] };
@@ -681,45 +671,37 @@ tbody tr:active td{
         noteEl.innerText = `Note: Bisa order lebih dari 1000.`;
 
         items.forEach((item) => {
+          const tr = document.createElement("tr");
 
-            const tr = document.createElement("tr");
+          const waMessage = encodeURIComponent(
+            `\n    Saya ingin order:\n\n    Platform : ${currentPlatformName}\n    Layanan  : ${serviceName}\n    Jumlah   : ${item.qty}\n    Garansi  : ${item.warranty}\n    Harga    : ${item.price}`
+          );
 
-            const waMessage = encodeURIComponent(
-    `
-    Saya ingin order:
+          const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
 
-    Platform : ${currentPlatformName}
-    Layanan  : ${serviceName}
-    Jumlah   : ${item.qty}
-    Garansi  : ${item.warranty}
-    Harga    : ${item.price}`
-            );
+          tr.innerHTML = `
+            <td>
+              <strong>${item.qty}</strong><br>
+              <span>${item.warranty}</span>
+            </td>
 
-            const waLink = `https://wa.me/6285220283627?text=${waMessage}`;
+            <td style="color: var(--accent-primary); font-weight:700;">
+              ${item.price}
+            </td>
+          `;
 
-            tr.innerHTML = `
-                <td>
-                    <strong>${item.qty}</strong><br>
-                    <span>${item.warranty}</span>
-                </td>
+          // Klik satu baris untuk order
+          tr.style.cursor = "pointer";
 
-                <td style="color: var(--accent-primary); font-weight:700;">
-                    ${item.price}
-                </td>
-            `;
+          tr.addEventListener("click", () => {
+            window.open(waLink, "_blank");
+          });
 
-            // Klik satu baris untuk order
-            tr.style.cursor = "pointer";
-
-            tr.addEventListener("click", () => {
-                window.open(waLink, "_blank");
-            });
-
-            tableBody.appendChild(tr);
+          tableBody.appendChild(tr);
         });
 
-    showPage("pricelist-page");
-}
+        showPage("pricelist-page");
+      }
 
       // Initialize Icons
       document.addEventListener("DOMContentLoaded", () => {
