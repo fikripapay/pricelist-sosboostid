@@ -113,7 +113,7 @@ window.priceData_tiktok = {
       {
         qty: "1 Comments",
         warranty: "Permanen",
-        price: "Rp 500",
+        price: "Rp 399",
         status: "ready",
       },
     ],
