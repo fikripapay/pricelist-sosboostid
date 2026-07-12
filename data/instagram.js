@@ -249,7 +249,7 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        qty: "1 Repost",
+        qty: "1 Repos",
         warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
@@ -297,7 +297,7 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        qty: "1 Saves",
+        qty: "1 Save",
         warranty: "Permanen",
         price: "Rp 199",
         status: "ready",
@@ -309,7 +309,7 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        qty: "1 Comments",
+        qty: "1 Comment",
         warranty: "Permanen",
         price: "Rp 399",
         status: "ready",
@@ -321,7 +321,7 @@ window.priceData_instagram = {
     min: 10,
     data: [
       {
-        qty: "1 Comments",
+        qty: "1 Comment",
         warranty: "Permanen",
         price: "Rp 199",
         status: "ready",

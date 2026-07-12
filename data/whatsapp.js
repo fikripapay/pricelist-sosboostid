@@ -39,7 +39,7 @@ window.priceData_whatsapp = {
     min: 10,
     data: [
       {
-        qty: "1 Reactions",
+        qty: "1 Reaction",
         warranty: "Permanen",
         price: "Rp 199",
         Keterangan:
