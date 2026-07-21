@@ -320,19 +320,6 @@
         font-weight: 600;
       }
 
-      .status-ready {
-        background: rgba(34, 197, 94, 0.1);
-        color: var(--status-ready);
-      }
-      .status-slow {
-        background: rgba(234, 179, 8, 0.1);
-        color: var(--status-slow);
-      }
-      .status-maintenance {
-        background: rgba(239, 68, 68, 0.1);
-        color: var(--status-maintenance);
-      }
-
       /* Order Button */
       .btn-order {
         background: linear-gradient(
@@ -527,6 +514,13 @@
             <div class="card-icon"><i class="fa-brands fa-instagram"></i></div>
             <div class="card-name">Instagram</div>
           </div>
+          <div
+            class="card"
+            onclick="navigateToCategory('Facebook', 'facebook')"
+          >
+            <div class="card-icon"><i class="fa-brands fa-facebook"></i></div>
+            <div class="card-name">Facebook</div>
+          </div>
           <div class="card" onclick="navigateToCategory('Shopee', 'shopee')">
             <div class="card-icon"><i class="fa-solid fa-s"></i></div>
             <div class="card-name">Shopee</div>
@@ -603,7 +597,7 @@
         instagram: [
           { id: "ig-followersidp", name: "Followers Indonesia Premium ⭐", icon: "users"},
           { id: "ig-followersid", name: "Followers Indonesia Full Cewek 🇮🇩", icon: "users" },
-          { id: "ig-followers", name: "Followers Global 🌍", icon: "users"},
+          { id: "ig-followers", name: "Followers Global 🌍", icon: "users", enabled: false},
           { id: "ig-likesid", name: "Likes Indonesia 🇮🇩", icon: "thumbs-up" },
           { id: "ig-likes", name: "Likes Global 🌍", icon: "thumbs-up" },
           { id: "ig-views", name: "Reels Views", icon: "eye" },
@@ -612,7 +606,13 @@
           { id: "ig-saves", name: "Save", icon: "bookmark" },
           { id: "ig-commentsid", name: "Comments Custom Indonesia 🇮🇩", icon: "message-circle"},
           // { id: "ig-comments", name: "Comments Custom Global", icon: "message-circle"},
-
+        ],
+        facebook: [
+          { id: "fb-followers", name: "Followers", icon: "users" },
+          { id: "fb-group", name: "Group Members", icon: "users" },
+          { id: "fb-views", name: "Reels Views", icon: "eye"},
+          { id: "fb-likes", name: "Likes", icon: "heart" },
+          { id: "fb-comments", name: "Comments Custom indonesia 🇮🇩", icon: "message-circle"},
         ],
         whatsapp: [
           { id: "wa-channels", name: "Channel Followers", icon: "rss" },
