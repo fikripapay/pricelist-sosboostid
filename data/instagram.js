@@ -5,31 +5,31 @@ window.priceData_instagram = {
       {
         qty: "100 Followers",
         warranty: "Permanen",
-        price: "Rp 4.200",
+        price: "Rp 3.500",
         status: "ready",
       },
       {
         qty: "250 Followers",
         warranty: "Permanen",
-        price: "Rp 10.400",
+        price: "Rp 8.500",
         status: "ready",
       },
       {
         qty: "500 Followers",
         warranty: "Permanen",
-        price: "Rp 20.800",
+        price: "Rp 17.000",
         status: "ready",
       },
       {
         qty: "750 Followers",
         warranty: "Permanen",
-        price: "Rp 31.200",
+        price: "Rp 25.500",
         status: "ready",
       },
       {
         qty: "1000 Followers",
         warranty: "Permanen",
-        price: "Rp 41.500",
+        price: "Rp 33.900",
         status: "ready",
       },
     ],
@@ -102,42 +102,6 @@ window.priceData_instagram = {
         qty: "1000 Followers",
         warranty: "Permanen",
         price: "Rp 102.500",
-        status: "ready",
-      },
-    ],
-  },
-
-  "ig-followersidp": {
-    min: 100,
-    data: [
-      {
-        qty: "100 Followers",
-        warranty: "Permanen",
-        price: "Rp 18.700",
-        status: "ready",
-      },
-      {
-        qty: "250 Followers",
-        warranty: "Permanen",
-        price: "Rp 46.600",
-        status: "ready",
-      },
-      {
-        qty: "500 Followers",
-        warranty: "Permanen",
-        price: "Rp 93.100",
-        status: "ready",
-      },
-      {
-        qty: "750 Followers",
-        warranty: "Permanen",
-        price: "Rp 139.600",
-        status: "ready",
-      },
-      {
-        qty: "1000 Followers",
-        warranty: "Permanen",
-        price: "Rp 186.000",
         status: "ready",
       },
     ],
@@ -221,31 +185,31 @@ window.priceData_instagram = {
       {
         qty: "100 Likes",
         warranty: "Permanen",
-        price: "Rp 2.200",
+        price: "Rp 2.000",
         status: "ready",
       },
       {
         qty: "250 Likes",
         warranty: "Permanen",
-        price: "Rp 5.300",
+        price: "Rp 5.000",
         status: "ready",
       },
       {
         qty: "500 Likes",
         warranty: "Permanen",
-        price: "Rp 10.600",
+        price: "Rp 9.900",
         status: "ready",
       },
       {
         qty: "750 Likes",
         warranty: "Permanen",
-        price: "Rp 15.800",
+        price: "Rp 14.800",
         status: "ready",
       },
       {
         qty: "1000 Likes",
         warranty: "Permanen",
-        price: "Rp 21.000",
+        price: "Rp 19.700",
         status: "ready",
       },
     ],
@@ -323,15 +287,4 @@ window.priceData_instagram = {
     ],
   },
 
-  "ig-comments": {
-    min: 10,
-    data: [
-      {
-        qty: "1 Comment",
-        warranty: "Permanen",
-        price: "Rp 199",
-        status: "ready",
-      },
-    ],
-  },
 };
